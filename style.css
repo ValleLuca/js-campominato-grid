@@ -1,3 +1,11 @@
 .msSize{
     height: 50px;
 }
+
+.red {
+    background-color: lightskyblue;
+}
+
+.msCursor:hover {
+    cursor: pointer;
+}
