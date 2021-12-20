@@ -12,36 +12,28 @@
 <body>
     
     <div class="contaniner">
-        <div class="row bg-secondary bg-opacity-10">
-            <div class="col">
-                <h2>Campo Minato: la Griglia</h2>
+        <div class="row">
+            <div class="col ">
+                <div class="d-flex">
+                    <img class="msSize" src="img/logo.jpg" alt="">
+                    <h2>Campo Minato: la Griglia</h2>
+                </div>
             </div>
-            <div class="col d-flex align-content-center justify-content-center align-items-center text-end">
+            <div class="col d-flex align-content-center justify-content-end align-items-center text-end pe-5">
                 <label for="cars">Scegli il livello:</label>
-                <select name="cars" id="cars">
+                <select name="livello" id="livello">
                     <option value="base">base</option>
                     <option value="intermedio">intermedio</option>
                     <option value="difficile">difficile</option>
                 </select>
+                <button id="msBottone"></button>
             </div>
         </div>
     </div>
 
-    <div class="container">
+    <div class="container bg-success bg-opacity-25">
         <div class="row justify-content-center">
-            <div class="col-8">
-                <div class="row text-center">
-                    <div class="col">1</div>
-                    <div class="col">2</div>
-                    <div class="col">3</div>
-                    <div class="col">4</div>
-                    <div class="col">5</div>
-                    <div class="col">6</div>
-                    <div class="col">7</div>
-                    <div class="col">8</div>
-                    <div class="col">9</div>
-                    <div class="col">10</div>
-                </div>
+            <div id="griglia" class="col-8">
             </div>
         </div>
     </div>
